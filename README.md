@@ -2,13 +2,13 @@
 
 PHP Website hosted on EC2 in Private Subnet
 
-RDS (MySQL/PostgreSQL) in another Private Subnet
+RDS (MySQL) in another Private Subnet
 
-Bastion Host in Public Subnet for secure access
+Bastion Host in Public Subnet for secure access (Can be replaced with AWS System Managers SSM)
 
 NAT Gateway for Private Subnet EC2 to access internet (for fetching CDN assets)
 
-Application Load Balancer (ALB) in front
+Application Load Balancer in front
 
 Multi-AZ + Cross-Region setup for High Availability and DR
 
